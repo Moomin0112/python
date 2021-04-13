@@ -1,0 +1,13 @@
+##cram_school student
+Last_name=('yuga')
+First_name=(' matsuda ')
+Age=('16')
+Club=('tableteniss')
+
+print(Last_name + First_name)
+print(Age)
+print(Club)
+
+#yuga matsuda
+#16
+#tabletennis
