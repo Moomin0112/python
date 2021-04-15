@@ -1,0 +1,16 @@
+##getting
+last_name=input("what is last name")
+First_name=input("What is first name")
+Age=input("How old are you")
+Club=input("What kind clubs are you belong to")
+print(last_name + First_name)
+print(Age)
+print(Club)
+
+#what is last name Tomoki
+#What is first name Takeshita
+#How old are you 16
+#What kind clubs are you belong to tebletennis
+ #Tomoki Takeshita
+ #16
+ #tebletennis
