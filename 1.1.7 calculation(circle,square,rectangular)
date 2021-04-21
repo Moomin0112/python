@@ -1,0 +1,17 @@
+## radius is a half of diameter
+## are of circle is pie*radius**2
+## area of rectrangle is length*width
+diameter = input("what is the diameter")
+radius = int(diameter)/2
+circle= 3.1415*int(radius**2)
+print(circle)
+length = input("what is the width")
+width = input("what is the length")
+square= int(length)*int(width)
+print(square)
+
+#what is the diameter 4
+#12.566
+#what is the width 3
+#what is the length 5
+#15
