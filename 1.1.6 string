@@ -1,7 +1,7 @@
 course = 'python for "beginners"'
 print(course[0])
-print(course[1])
-print(course[2])
-print(course[3])
-print(course[4])
-print(course[5])
+print(course[int(" ")+int(1)  ])
+print(course[int("   ")+int(2)   ])
+print(course[int("     ")+int(3)   ])
+print(course[int("     ")  +int(4)])
+print(course[int("        ") +int(5)])
