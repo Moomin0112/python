@@ -5,9 +5,12 @@ diameter = input("what is the diameter")
 radius = int(diameter)/2
 circle= 3.1415*int(radius**2)
 print(circle)
-length = input("what is the width")
-width = input("what is the length")
-square= int(length)*int(width)
+length = input("what is the length")
+width = input("what is the width")
+rectangular= int(length)*int(width)
+print(rectangular)
+length= input("what is the length")
+square= int(length)**2
 print(square)
 
 #what is the diameter 4
