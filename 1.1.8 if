@@ -1,0 +1,15 @@
+## good credit is more than 510
+credit = int(input('please enter your credit score'))
+if credit > 500:
+    print("Thank you for contracting us, please put down 10% payment")
+else:
+    print("thank you for contracting us, please put down 20% payment")
+
+down_payment = int(input('Please enter your rate without including "%"'))
+result = 1000000/int(down_payment)
+print(result)
+
+#please enter your credit score 500
+#thank you for contracting us, please put down 20% payment
+#Please enter your rate without including "%" 20
+#50000.0
