@@ -1,11 +1,12 @@
-##person who are fever has cold are patients
+virus = input("Do you have fever?")
 person_are_fever = True
 person_has_cold = True
-int(patient_tempareture)>37
-if patient_tenpareture>37
-    print('you have to take the test to detect the virus')
+if  person_are_fever and person_has_cold:
+    print('you have to take the test to detect corona virus')
 
-eilf person_are_fever and person_has_cold
-    print("patients are thought to be affected by virus")
+else:
+    print('if you have any symptoms, please go to the hospital immediately')
     
-else 
+    
+#Do you have fever? no
+#you have to take the test to detect corona virus
