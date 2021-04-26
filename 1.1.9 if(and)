@@ -1,0 +1,11 @@
+##person who are fever has cold are patients
+person_are_fever = True
+person_has_cold = True
+int(patient_tempareture)>37
+if patient_tenpareture>37
+    print('you have to take the test to detect the virus')
+
+eilf person_are_fever and person_has_cold
+    print("patients are thought to be affected by virus")
+    
+else 
