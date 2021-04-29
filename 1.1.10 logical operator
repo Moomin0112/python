@@ -1,0 +1,9 @@
+temperature = int(input('enter your location temperature'))
+temperature >= 30
+if temperature >= 30:
+    print('today is hot day')
+
+else:
+    print('today is chill day')
+#enter your location temperature28
+#today is chill day
