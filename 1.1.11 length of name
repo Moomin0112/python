@@ -1,0 +1,10 @@
+name = input('Enter your first name')
+
+if len(name) <= 3:
+    print('please enter your first name which has minimum 4 letters')
+elif len(name) >= 20:
+    print('name has to be a maximum 20 letters')
+else:
+    print('name looks good')
+#Enter your first name ogura
+#name looks good
