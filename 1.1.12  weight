@@ -1,0 +1,5 @@
+weight = int(input('what is your weight?'))
+unit = input("'L' bs or 'K'")
+if converted = L
+    print("your weight" + [converted] + 'kg')
+print(pounds)
