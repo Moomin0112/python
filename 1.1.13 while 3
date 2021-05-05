@@ -1,0 +1,14 @@
+
+i = 1
+while i <= 18:
+    print("Do my best")
+    i = i + 3
+print("You can do it")
+
+#Do my best
+#Do my best
+#Do my best
+#Do my best
+#Do my best
+#Do my best
+#You can do it
