@@ -1,0 +1,14 @@
+
+i = 1
+while i <= 18:
+    print("viji")
+    i = i + 3
+print("done")
+
+#viji
+#viji
+#viji
+#viji
+#viji
+#viji
+#done
