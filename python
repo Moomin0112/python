@@ -1,0 +1,20 @@
+name = "python"
+p = name[0]
+y = name[1]
+t = name[2]
+h = name[3]
+o = name[4]
+n = name[5]
+
+i = 1
+while i <= 6:
+    print(" " * i + "p")
+    i = i + 1
+print("done")
+
+# p
+ # p
+  # p
+   # p
+    # p
+     # p
