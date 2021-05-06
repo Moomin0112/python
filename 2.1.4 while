@@ -1,0 +1,12 @@
+secret_number = 8
+number_count = 0
+number_limit = 3
+
+while number_count < number_limit:
+    guess = int(input("Please enter your guess number"))
+    number_count = number_count +1
+    if guess == secret_number:
+          print("You won")
+    break
+else :
+    print("You are failed")
