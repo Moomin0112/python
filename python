@@ -1,20 +1,27 @@
-name = "python"
-p = name[0]
-y = name[1]
-t = name[2]
-h = name[3]
-o = name[4]
-n = name[5]
 
 i = 1
-while i <= 6:
+while i <= 1:
     print(" " * i + "p")
     i = i + 1
-print("done")
+while i <= 2:
+    print(" " * i + "y")
+    i = i + 1
+while i <= 3:
+    print(" " * i + "t")
+    i = i + 1
+while i <= 4:
+    print(" " * i + "h")
+    i = i + 1
+while i <= 5:
+    print(" " * i + "o")
+    i = i + 1
+while i <= 6:
+    print(" " * i + "n")
+    i = i + 1
 
 # p
- # p
-  # p
-   # p
-    # p
-     # p
+ # y
+  # t
+   # h
+    # o
+     # n
