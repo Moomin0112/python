@@ -1,0 +1,9 @@
+name = input('')
+name = "start car"
+if name == "start car ":
+    print("your car will start")
+else:
+    print("Your car will stop")
+    
+#stop car
+#Your car will stop
