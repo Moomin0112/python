@@ -86,3 +86,17 @@ while i <= 3:
     i = i - 1
 ## but it doesn't work
 
+
+print(" radius is 2, length is 4, width is 2 ")
+
+rectangular = int(input("enter area of rectangular"))
+square = int(input("enter area of square"))
+circle = int(input("enter area of circle"))
+
+rectangular = 8
+square = 4
+circle = 12.56
+if rectangular and square and circle :
+    print('your answers are completely true')
+elif rectangular or square:
+    print("one of your answers is true")
