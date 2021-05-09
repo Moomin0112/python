@@ -51,3 +51,14 @@ elif new_grading_system > 80:
     
 #enter your score 56
 #Your grade is C
+
+
+i = 1
+while i <= 4:
+    print("*"*i)
+    i = i + 1
+
+#*
+#**
+#***
+#****
