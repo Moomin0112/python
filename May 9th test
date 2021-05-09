@@ -32,3 +32,22 @@ print(unit*0.9)
 # you will get 10% discount
 #Your total cost
 #432000.0
+
+
+new_grading_system = int(input("enter your score"))
+if new_grading_system < 25:
+    print("Your grade is F")
+elif 45 >= new_grading_system >= 25 :
+    print("Your grade is E")
+elif 50 >= new_grading_system > 45:
+    print("Your grade is D")
+elif 60 >= new_grading_system > 50:
+    print("Your grade is C")
+elif 80 >= new_grading_system > 60:
+    print("Your grade is B")
+elif new_grading_system > 80:
+    print("Your grade is A ")
+    
+    
+#enter your score 56
+#Your grade is C
