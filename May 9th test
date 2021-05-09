@@ -14,3 +14,21 @@ else:
 # How much salary do you get per a year?70000000
 #your bonus is
 #3500000.0
+
+
+quantity = int(input("how much amount do you buy?"))
+if quantity >= 1000:
+    print(" you will get 10% discount")
+
+else:
+    print("Thank you for purchasing our products")
+
+
+unit = quantity * 100
+print("Your total cost")
+print(unit*0.9)
+
+#how much amount do you buy? 4800
+# you will get 10% discount
+#Your total cost
+#432000.0
