@@ -77,3 +77,12 @@ while i <= 6:
 #*
 #***
 #*****
+
+
+## in this part, i tried to reduce number like this: 
+i = 3
+while i <= 3:
+    print("01"*i)
+    i = i - 1
+## but it doesn't work
+
