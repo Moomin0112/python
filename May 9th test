@@ -1,12 +1,11 @@
-year = int(input("How long have you worked for our company?"))
-salary = int(input(" How much salary do you get per a year?"))
+
+year = int(input("How long have you worked for our company?     "))
+salary = int(input("How much salary do you get per a year?     "))
 bonus = 0.05 * salary
 
 year >= 5
 if year >= 5:
-    print("your bonus is")
-    print(bonus)
-
+    print("your bonus is  " + str(bonus))
 else:
     print("employee who work for our company less than 4 years can't get bonus")
 
@@ -16,17 +15,17 @@ else:
 #3500000.0
 
 
-quantity = int(input("how much amount do you buy?"))
+quantity = int(input("how much amount do you buy?  "))
 if quantity >= 1000:
-    print(" you will get 10% discount")
+    print("you will get 10% discount")
 
 else:
     print("Thank you for purchasing our products")
 
 
 unit = quantity * 100
-print("Your total cost")
-print(unit*0.9)
+print("Your total cost is  " + str(unit))
+
 
 #how much amount do you buy? 4800
 # you will get 10% discount
@@ -34,7 +33,7 @@ print(unit*0.9)
 #432000.0
 
 
-new_grading_system = int(input("enter your score"))
+new_grading_system = int(input("Enter your score :  "))
 if new_grading_system < 25:
     print("Your grade is F")
 elif 45 >= new_grading_system >= 25 :
@@ -63,16 +62,22 @@ while i <= 4:
 #***
 #****
 
-
-i = 1                       
-while i <= 6:               
-    print("*"*i)            
-    i = i + 2               
-
-i = 5
-while i <= 6:
-    print("*"*i)
-    i = i - 2
+i = 1
+j = 2
+while i>=1:
+  a =  " "*j+"*"*i+" "*j
+  print(a)
+  i = i+2
+  j = j-1
+  if i>5:
+    break
+i = 3
+j = 1
+while i>=1:
+  a =  " "*j+"*"*i+" "*j
+  print(a)
+  i = i-2
+  j = j+1
 
 #*
 #***
