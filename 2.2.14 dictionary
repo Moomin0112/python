@@ -1,0 +1,46 @@
+cram_school_student= {
+    "name": "matsuda",
+    "age": 16,
+    "score":88,
+    "club": "tabeltennis",
+    "favorite subject": "math"
+    "is_verified": True
+}
+cram_school_student2= {
+    "name": "Takeda",
+    "age": 17,
+    "score":92,
+    "club": "science",
+    "favorite subject": "literature"
+    "is_verified": True
+}
+cram_school_student3= {
+    "name": "Akai",
+    "age": 16,
+    "score":78,
+    "club": "tebleteniss",
+    "favorite subject": "Social studies"
+    "is_verified": True
+}
+cram_school_student4= {
+    "name": "Iwasa",
+    "age": 18,
+    "score":90,
+    "club": "soccer",
+    "favorite subject": "biology"
+    "is_verified": True
+}
+cram_school_student5= {
+    "name": "hirai",
+    "age": 15,
+    "score":86,
+    "club": "baseball",
+    "favorite subject": "English"
+    "is_verified": True
+}
+
+print(cram_school_student["age"])
+print(cram_school_student2["name"])
+print(cram_school_student3["score"])
+print(cram_school_student4["club"])
+print(cram_school_student5["favorite subject"])
