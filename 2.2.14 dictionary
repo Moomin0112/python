@@ -3,7 +3,7 @@ cram_school_student= {
     "age": 16,
     "score":88,
     "club": "tabeltennis",
-    "favorite subject": "math"
+    "favorite subject": "math",
     "is_verified": True
 }
 cram_school_student2= {
@@ -11,7 +11,7 @@ cram_school_student2= {
     "age": 17,
     "score":92,
     "club": "science",
-    "favorite subject": "literature"
+    "favorite subject": "literature",
     "is_verified": True
 }
 cram_school_student3= {
@@ -19,7 +19,7 @@ cram_school_student3= {
     "age": 16,
     "score":78,
     "club": "tebleteniss",
-    "favorite subject": "Social studies"
+    "favorite subject": "Social studies",
     "is_verified": True
 }
 cram_school_student4= {
@@ -27,7 +27,7 @@ cram_school_student4= {
     "age": 18,
     "score":90,
     "club": "soccer",
-    "favorite subject": "biology"
+    "favorite subject": "biology",
     "is_verified": True
 }
 cram_school_student5= {
@@ -35,12 +35,19 @@ cram_school_student5= {
     "age": 15,
     "score":86,
     "club": "baseball",
-    "favorite subject": "English"
+    "favorite subject": "English",
     "is_verified": True
 }
 
-print(cram_school_student["age"])
-print(cram_school_student2["name"])
-print(cram_school_student3["score"])
-print(cram_school_student4["club"])
-print(cram_school_student5["favorite subject"])
+print(cram_school_student.get("age"))
+print(cram_school_student2.get("name"))
+print(cram_school_student3.get("score"))
+print(cram_school_student4.get("club"))
+print(cram_school_student5.get("favorite subject"))
+
+
+#16
+#Takeda
+#78
+#soccer
+#English
