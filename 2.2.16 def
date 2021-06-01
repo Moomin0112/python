@@ -1,0 +1,61 @@
+def greet_user1():
+    print("Aki")
+    print("Ogura")
+    print(46)
+    print("Running")
+
+def greet_user2():
+    print("Chiharu")
+    print("Ogura")
+    print(25)
+    print("playing" + "saxphone")
+
+def greet_user3():
+    print("Yuki")
+    print("Ogura")
+    print(21)
+    print("Playing" + "the" + "piano")
+
+def greet_user4():
+    print("Sugae")
+    print("Ogura")
+    print(70)
+    print("Singing" + "a" + "song")
+
+def greet_user5():
+    print("Robin")
+    print("ogura")
+    print(12)
+    print("Taking" + "a" + "walk")
+
+greet_user1()
+
+greet_user2()
+
+greet_user3()
+
+greet_user4()
+
+greet_user5()
+
+
+#AKi
+#gura
+#46
+#Running
+#Chiharu
+#Ogura
+#25
+#playingsaxphone
+#Yuki
+#Ogura
+#21
+#Playingthepiano
+#Sugae
+#Ogura
+#70
+#Singingasong
+#Robin
+#ogura
+#12
+#Takingawalk
