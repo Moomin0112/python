@@ -1,0 +1,5 @@
+def convert(i) :
+    c = int(i)
+    f = (c + 32)* 9/5 
+    return f
+    print(convert(22))
