@@ -1,8 +1,8 @@
-Height = float(input("Please enter your height"))
-Weight = int(input("Please enter your weight"))
+Height = float(input("Please enter your height : "))
+Weight = int(input("Please enter your weight : "))
 Height = Height/100
 BMI = Weight/(Height*Height)
-print("your BMI is" + [BMI])
+print("your BMI is" ,BMI)
 if BMI > 0 :
     if BMI <= 16:
         print(" You are severly underweight")
@@ -12,3 +12,10 @@ if BMI > 0 :
         print(" You are overweight")
     else: print( "You are severly overweight")
 else: print("Your weight and height is not valid")
+
+#Please enter your height : 158
+#Please enter your weight : 55
+#your BMI is 22.031725684986377
+ #You are normal weight
+
+
