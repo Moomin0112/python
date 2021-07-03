@@ -1,0 +1,10 @@
+import pyshorteners
+
+link = input("Please enter the link : ")
+shortener = pyshorteners.Shortener()
+
+i = shortner.tinyurl.short(link)
+
+print(i)
+
+#link: https://www.youtube.com/watch?v=6Ila5Ybzh7E
