@@ -8,3 +8,7 @@ i = shortner.tinyurl.short(link)
 print(i)
 
 #link: https://www.youtube.com/watch?v=6Ila5Ybzh7E
+
+#Please enter the link : https://www.youtube.com/watch?v=6Ila5Ybzh7E
+#https://tinyurl.com/yhgk4mlo
+
